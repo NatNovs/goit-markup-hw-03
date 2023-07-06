@@ -71,6 +71,8 @@ body {
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid var(--cornflower, #E7E9FC);
+background: var(--white, #FFF);
 }
 
 .header-logo {
@@ -215,9 +217,11 @@ body {
     display: flex;
     gap: 24px;
     width: calc((100% - 24*3) / 4);
+    
 }
 
 .benefits-item {  
+    
 }
 
 .benefits-subtitle {
@@ -348,6 +352,7 @@ body {
     display: flex;
     width: 71px;
     height: 21px;
+
     padding-top: 101px;
     padding-bottom: 18px;
     margin-left: 156px;
@@ -448,38 +453,44 @@ body {
     align-items: flex-start;
     align-content: start;
     display: flex;
-    gap: 24px;
     flex-wrap: wrap;
-    width: calc((100% - 24*2) / 3);
-    margin-left: 156px;
-
+    gap: 24px;
+    width: 1128px;
 }
 
 .content-item {
     text-decoration: none;
-    margin-bottom: 48px;
-    width: 360px;
-    height: 420px;
-    padding-bottom: 32px;
-    margin: 0 auto;
+    width: calc((100% - 48px) / 3);
+    gap: 24px;
 }
+
 .visually-hidden {
 }
 .content-img {
-    padding-bottom: 32px;
 }
+
 .content-subtitle {
     color: var(--navi-blue);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    padding-top: 32px;
     padding-bottom: 8px;
+    margin-right: 16px;
+    margin-left: 16px;
 }
 .content-text {
     color: var(--slate-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-bottom: 32px;
+    margin-right: 16px;
+    margin-left: 16px;
 }
 
-
+.port-bord {
+    width: 360px;
+    border: 1px solid var(--cornflower-color);
+    background-color: var(--white, #FFF);
+}
