@@ -30,7 +30,7 @@ ul, ol {
     margin: 0 auto;
     }
 
-.img {
+img {
     display: block;
     height: 100%;
     width: 100%;
@@ -94,6 +94,7 @@ background: var(--white, #FFF);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
+    padding: 24px 0;
 }
 
 .header-logo-acssent {
@@ -169,11 +170,11 @@ background: var(--white, #FFF);
 .hero {
     background-color: var(--navi-blue);
     padding-bottom: 120px;
+    padding: 188px 0;
 }
 
 .container-hero {
     width: 100%;
-    padding: 188px 0;
 }
 
 .hero-title {
@@ -225,6 +226,7 @@ background: var(--white, #FFF);
     padding-right: 156px;
     display: flex;
     gap: 24px;
+    width: calc((100% - 72px) / 4);
 }
 
 .benefits-item { 
@@ -285,9 +287,9 @@ background: var(--white, #FFF);
 
 .team { 
     background-color: var(--cloud-color);
+    padding: 120px 0;
 }
 .team-container {
-    padding: 120px 0;
 }
 
 .team-title {
@@ -351,20 +353,21 @@ background: var(--white, #FFF);
 
 .footer {
     background-color: #2E2F42;
+    padding: 100px 0
 }
 
 .footer-container{
-    padding: 100px 0;
 }
 
 .container .footer-logo {
     display: flex;
     width: 71px;
     height: 21px;
-
     padding-top: 101px;
     padding-bottom: 18px;
     margin-left: 156px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo {
@@ -375,8 +378,6 @@ background: var(--white, #FFF);
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    display: inline-block;
-    margin-bottom: 16px;
 }
 
 .footer-logo-acssent {
