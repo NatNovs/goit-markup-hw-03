@@ -23,6 +23,7 @@ ul, ol {
 
 .container { 
     max-width: 1158px;
+    width: 100%;
     padding-left:  15px;
     padding-right:  15px;
     margin-left: auto;
@@ -72,9 +73,6 @@ body {
 .header {
     border-bottom: 1px solid var(--cornflower, #E7E9FC);
     background: var(--white, #FFF);
-    padding: 0 15px;
-    padding: 24px 0 24px;
-
 }
 
 .header-container {
@@ -82,7 +80,7 @@ body {
     margin: 0 auto;
     align-items: center;
     justify-content: space-between;
-    padding: 24px 0 24px;
+    padding: 0 15px;
 }
 
 .header-logo {
@@ -112,7 +110,7 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 40px;
-    
+    padding: 24px 0
 }
 
 .header-menu {
