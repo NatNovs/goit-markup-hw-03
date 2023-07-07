@@ -157,7 +157,7 @@ background: var(--white, #FFF);
     color: var(--pressed-state-ocean);
 }
 .header-address .link:focus {
-    color: var(--pressed-state-ocean);
+    color: vpar(--pressed-state-ocean);
 }
 
 /*?-------HERO-------*/
@@ -179,9 +179,12 @@ background: var(--white, #FFF);
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    max-width: 496px;
-    margin-bottom: 48px;
+    margin: auto 0;
+    display: flex;
+    width: 496px;
 }
+
+
 .hero-button {
     color: var(--primary-white);
     background-color: var(--primary-brand-iris);
@@ -221,7 +224,6 @@ background: var(--white, #FFF);
     padding-right: 156px;
     display: flex;
     gap: 24px;
-    width: calc((100% - 72px) / 4);
 }
 
 .benefits-item {
@@ -410,11 +412,9 @@ background: var(--white, #FFF);
 }
 
 .container-portfolio {
-    margin-bottom: 72px;
 }
 
 .button-conteiner {
-    margin-top: 96px;
 }
 
 .button-list {
@@ -424,6 +424,7 @@ background: var(--white, #FFF);
     padding-top: 96px;
     justify-content: center; 
     margin-right: 24px;
+    gap: 24px; 
 }
 
 .button-main {
@@ -441,7 +442,8 @@ background: var(--white, #FFF);
     display: flex;
     gap: 24px;
     margin: 0 auto;
-    padding: 12px 24px
+    padding: 12px 24px;padding: 12px 24px
+    justify-content: center; 
     border: 1px solid var(--cornflower, #E7E9FC);
 }
 
