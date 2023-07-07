@@ -437,13 +437,13 @@ background: var(--white, #FFF);
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    padding: 12px 24px;
     cursor: pointer;
     align-items: center;
     border-radius: 4px;
     display: flex;
     gap: 24px;
     margin: 0 auto;
+    padding: 12px 24px
     border: 1px solid var(--cornflower, #E7E9FC);
 }
 
@@ -478,6 +478,7 @@ background: var(--white, #FFF);
 
 .content-item {
     text-decoration: none;
+    justify-content: center; 
     width: calc((100% - 48px) / 3); 
     gap: 24px;
 }
