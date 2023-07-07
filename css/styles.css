@@ -138,6 +138,7 @@ background: var(--white, #FFF);
 .header-address {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .header-address-item { 
