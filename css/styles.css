@@ -225,11 +225,10 @@ background: var(--white, #FFF);
     padding-right: 156px;
     display: flex;
     gap: 24px;
+    width: calc((100% - 72px) / 4);
 }
 
-.benefits-item { 
-   flex-basis: calc((100% - 72px) / 4));
-}
+.benefits-item {}
 
 .benefits-subtitle {
     color: var(--navi-blue);
