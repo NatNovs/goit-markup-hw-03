@@ -118,6 +118,7 @@ body {
     gap: 40px;
     align-items: center;
     text-align: left; 
+    padding: 24px 0;
 }
 
 .header-menu-imet {
