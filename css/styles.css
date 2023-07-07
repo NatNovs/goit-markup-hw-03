@@ -228,10 +228,11 @@ padding: 0 15px;
     padding-right: 156px;
     display: flex;
     gap: 24px;
-    flex-basis: calc((100% - 72px) / 4);
 }
 
 .benefits-item {
+    flex-basis: calc((100% - 72px) / 4);
+    
 }
 
 .benefits-subtitle {
