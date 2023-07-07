@@ -70,7 +70,6 @@ body {
 
 .header {
     width: 1158px;
-    padding: 24px 0;
     border-bottom: 1px solid var(--cornflower, #E7E9FC);
 background: var(--white, #FFF);
 }
@@ -79,7 +78,6 @@ background: var(--white, #FFF);
     display: flex;
     align-items: center;
     gap: 40px;
-    width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -125,7 +123,6 @@ background: var(--white, #FFF);
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-left: 76px;
-    padding: 24px 0;
 }
 .header-menu-list {
     color: var(--navi-blue);
@@ -145,7 +142,6 @@ background: var(--white, #FFF);
     line-height: 1.5;
     font-weight: 400;
     letter-spacing: 0.02em;
-    padding: 24px 0;
 }
 
 .header-address-list {
