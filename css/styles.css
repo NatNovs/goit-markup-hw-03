@@ -73,7 +73,7 @@ body {
     border-bottom: 1px solid var(--cornflower, #E7E9FC);
     background: var(--white, #FFF);
     padding: 0 15px;
-    margin-top: 24px;
+
 }
 
 .header-container {
@@ -81,6 +81,7 @@ body {
     margin: 0 auto;
     align-items: center;
     justify-content: space-between;
+    padding: 24px 0 24px;
 }
 
 .header-logo {
@@ -109,13 +110,15 @@ body {
     margin-left: auto 0;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 24px;
+    gap: 40px;
+    
 }
 
 .header-menu {
     display: flex;
     gap: 40px;
     align-items: center;
+    text-align: left; 
 }
 
 .header-menu-imet {
@@ -136,6 +139,7 @@ body {
 }
 .header-address {
     display: flex;
+    align-items: center;
     gap: 40px;
 }
 
