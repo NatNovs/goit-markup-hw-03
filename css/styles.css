@@ -78,7 +78,6 @@ body {
 .header-container {
     display: flex;
     margin: 0 auto;
-    padding: 0 15px;
 }
 
 .header-logo {
