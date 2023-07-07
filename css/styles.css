@@ -364,6 +364,7 @@ background: var(--white, #FFF);
     padding-top: 101px;
     padding-bottom: 18px;
     margin-left: 156px;
+    display: inline-block;
 }
 
 .footer-logo {
