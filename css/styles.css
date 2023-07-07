@@ -78,7 +78,7 @@ background: var(--white, #FFF);
 .header-container {
     display: flex;
     align-items: center;
-    gap: 332px;
+    gap: 40px;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -116,7 +116,6 @@ background: var(--white, #FFF);
     display: flex;
     gap: 40px;
     align-items: center;
-    padding: 24px 0;
 }
 
 .header-menu-imet {
@@ -126,10 +125,11 @@ background: var(--white, #FFF);
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-left: 76px;
-    padding: 24px 0
+    padding: 24px 0;
 }
 .header-menu-list {
     color: var(--navi-blue);
+    padding: 24px 0;
 }
 
 .header-address-menu {
@@ -138,7 +138,6 @@ background: var(--white, #FFF);
 .header-address {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .header-address-item { 
@@ -146,10 +145,12 @@ background: var(--white, #FFF);
     line-height: 1.5;
     font-weight: 400;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .header-address-list {
     color: var(--slate-color);
+    padding: 24px 0;
 
 }
 .header-menu-imet .link:hover {
