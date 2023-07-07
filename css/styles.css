@@ -69,17 +69,15 @@ body {
 /*!-------HEADER-------*/
 
 .header {
-    width: 1158px;
     border-bottom: 1px solid var(--cornflower, #E7E9FC);
 background: var(--white, #FFF);
 }
 
 .header-container {
     display: flex;
-    align-items: center;
-    gap: 40px;
     margin: 0 auto;
     padding: 0 15px;
+    padding: 24px 0;
 }
 
 .header-logo {
@@ -90,7 +88,6 @@ background: var(--white, #FFF);
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 76px;
 }
 
 .header-logo-acssent {
@@ -105,9 +102,8 @@ background: var(--white, #FFF);
 
 .header-nav {
     display: flex;
-    margin-left: auto;
+    margin-left: auto 0;
     justify-content: space-between;
-    align-items: center;
 }
 
 .header-menu {
@@ -127,6 +123,7 @@ background: var(--white, #FFF);
 .header-menu-list {
     color: var(--navi-blue);
     padding: 24px 0;
+    gap: 40px;
 }
 
 .header-address-menu {
@@ -147,6 +144,7 @@ background: var(--white, #FFF);
 .header-address-list {
     color: var(--slate-color);
     padding: 24px 0;
+    gap: 40px;
 
 }
 .header-menu-imet .link:hover {
