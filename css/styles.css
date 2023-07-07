@@ -93,7 +93,6 @@ background: var(--white, #FFF);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
-    padding: 24px 0;
 }
 
 .header-logo-acssent {
@@ -117,6 +116,7 @@ background: var(--white, #FFF);
     display: flex;
     gap: 40px;
     align-items: center;
+    padding: 24px 0;
 }
 
 .header-menu-imet {
@@ -228,7 +228,9 @@ background: var(--white, #FFF);
     width: calc((100% - 72px) / 4);
 }
 
-.benefits-item {}
+.benefits-item {
+    width: calc((100% - 72px) / 4);
+}
 
 .benefits-subtitle {
     color: var(--navi-blue);
