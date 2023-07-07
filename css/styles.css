@@ -431,19 +431,13 @@ body {
     padding-bottom: 120px;
 }
 
-.container-portfolio {
-    padding-top: 96px;
-    padding-bottom: 120px;
-}
-
 .button-list {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 72px;
     padding-top: 96px;
     justify-content: center; 
-    margin-right: 24px;
     gap: 24px; 
+    margin-bottom: 72px;
 }
 
 .button-main {
@@ -461,24 +455,25 @@ body {
     display: flex;
     gap: 24px;
     margin: 0 auto;
-    padding: 12px 24px;padding: 12px 24px
+    padding: 12px 24px;
     justify-content: center; 
-    margin-bottom: 72px 
+    margin-bottom: 72px;
+    border-radius: 4px;
     border: 1px solid var(--cornflower, #E7E9FC);
+    background: var(--cloud, #F4F4FD);
 }
 
 
 .button-main:focus {
     color: var(--primary-white);
     background-color: var(--pressed-state-ocean);
-    border: 1px solid transparent;
 }
 
 
 .button-main:hover {
     color: var(--primary-white);
     background-color: var(--pressed-state-ocean);
-    border: 1px solid transparent;
+
     
 }
 /*!-----content-----*/
@@ -494,16 +489,24 @@ body {
     display: flex;
     column-gap: 24px;
     row-gap: 48px;
+    background: #FFF;
 }
 
 .content-item {
     text-decoration: none;
     justify-content: center; 
     width: calc((100% - 48px) / 3); 
-    gap: 24px;
+    width: 360px;
+    height: 420px;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex-shrink: 0;
+    border: 1px solid var(--cornflower, #E7E9FC);
+    background: var(--white, #FFF);
 }
-.content-img {
-}
+
 
 .content-subtitle {
     color: var(--navi-blue);
@@ -511,18 +514,14 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    padding-top: 32px;
-    padding-bottom: 8px;
-    margin-right: 16px;
-    margin-left: 16px;
+    margin-bottom: 8px;
 }
 .content-text {
     color: var(--slate-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-bottom: 32px;
-    margin-right: 16px;
-    margin-left: 16px;
+    text-align: center;
+    margin-bottom: 32px;
 }
 
 .port-bord {
