@@ -496,6 +496,7 @@ body {
     align-items: flex-start;
     flex-shrink: 0;
     background: var(--white, #FFF);
+    margin-bottom: 72px;
 }
 
 
