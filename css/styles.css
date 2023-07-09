@@ -507,6 +507,7 @@ body {
     row-gap: 48px;
     flex-shrink: 0;
     background: var(--white, #FFF);
+    margin-bottom: 72px;
 }
 
 
