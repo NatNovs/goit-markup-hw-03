@@ -485,6 +485,9 @@ body {
 }
 .portfolio-img {
     padding: 24px 0;
+    border-top: none;
+    
+
 }
 
 .content-item {
@@ -508,12 +511,16 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+    border-top: none;
+    
 }
 
 .content-text {
     color: var(--slate-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
+    border-top: none;
+    
 }
 
 .content-text-bort { 
