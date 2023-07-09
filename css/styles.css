@@ -119,7 +119,6 @@ body {
     gap: 40px;
     align-items: center;
     text-align: left;
-    padding: 24px 0;
 }
 
 .header-menu-imet {
@@ -133,6 +132,7 @@ body {
 .header-menu-list {
     color: var(--navi-blue);
     gap: 40px;
+    padding: 24px 0;
 }
 
 .header-address-menu {
