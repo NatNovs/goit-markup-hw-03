@@ -417,6 +417,7 @@ body {
 .button {
     padding-top: 96px;
     padding-bottom: 120px;
+    border-top: none;
 }
 
 .container-button .container {
@@ -495,7 +496,6 @@ body {
     flex-shrink: 0;
     background: var(--white, #FFF);
     margin-bottom: 72px;
-    border-top: none;
 }
 
 
@@ -516,6 +516,5 @@ body {
 
 .content-text-bort { 
     padding: 32px 16px;
-    border-top: none;
     border: 1px solid #e7e9fc;
 }
