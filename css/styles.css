@@ -479,6 +479,8 @@ body {
     row-gap: 48px;
     margin-bottom: 72px;
     background: #FFF;
+    border-top: none;
+    
 
 }
 .portfolio-img {
