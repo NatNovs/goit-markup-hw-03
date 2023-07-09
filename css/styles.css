@@ -119,7 +119,6 @@ body {
     gap: 40px;
     align-items: center;
     text-align: left; 
-    padding: 24px 0;
 }
 
 .header-menu-imet {
@@ -153,7 +152,6 @@ body {
 
 .header-address-list {
     color: var(--slate-color);
-    padding: 24px 0;
     gap: 40px;
 
 }
@@ -491,6 +489,9 @@ body {
     row-gap: 48px;
     background: #FFF;
 }
+.portfolio-img {
+    padding: 24px 0;
+}
 
 .content-item {
     text-decoration: none;
@@ -516,8 +517,8 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    margin-top: 32px;
 }
+
 .content-text {
     color: var(--slate-color);
     line-height: 1.5;
