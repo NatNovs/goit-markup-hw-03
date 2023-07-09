@@ -242,7 +242,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: calc(( 100% - 72px ) / 4 );
+    width: calc((100% - 72px) / 4);
     gap: 8px;
     line-height: 1.5;
     letter-spacing: 0.02em;
