@@ -488,6 +488,8 @@ body {
     column-gap: 24px;
     row-gap: 48px;
     background: #FFF;
+    margin-bottom: 72px;
+
 }
 .portfolio-img {
     padding: 24px 0;
@@ -502,10 +504,9 @@ body {
     padding-bottom: 0px;
     flex-direction: column;
     align-items: flex-start;
-    gap: 32px;
+    row-gap: 48px;
     flex-shrink: 0;
     background: var(--white, #FFF);
-    row-gap: 48px;
 }
 
 
