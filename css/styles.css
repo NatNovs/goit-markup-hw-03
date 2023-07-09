@@ -435,6 +435,7 @@ body {
     flex-wrap: wrap;
     justify-content: center; 
     gap: 24px; 
+    margin-bottom: 72px;
 }
 
 .button-main {
@@ -509,7 +510,6 @@ body {
     row-gap: 48px;
     flex-shrink: 0;
     background: var(--white, #FFF);
-    margin-bottom: 72px;
 }
 
 
@@ -519,7 +519,6 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-bottom: 8px;
 }
 
 .content-text {
