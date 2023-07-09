@@ -37,8 +37,6 @@ img {
     margin-right:  auto;
     margin: 0 auto;
     padding: 0 15px;
-    border-top: none;
-    
     }
 
 
@@ -481,13 +479,11 @@ body {
     row-gap: 48px;
     margin-bottom: 72px;
     background: #FFF;
-    border-top: none;
     
 
 }
 .portfolio-img {
     padding: 24px 0;
-    border-top: none;
     
 
 }
@@ -502,7 +498,6 @@ body {
     flex-shrink: 0;
     background: var(--white, #FFF);
     margin-bottom: 72px;
-    border-top: none;
 }
 
 
@@ -512,20 +507,18 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-bottom: 8px;
-    border-top: none;
-    
+    margin-bottom: 8px;  
 }
 
 .content-text {
     color: var(--slate-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
-    border-top: none;
     
 }
 
 .content-text-bort { 
     padding: 32px 16px;
+    border-top: none;
     border: 1px solid #e7e9fc;
 }
