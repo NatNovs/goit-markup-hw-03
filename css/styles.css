@@ -21,6 +21,13 @@ ul, ol {
     padding-left: 0;
 }
 
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
 .container { 
     max-width: 1158px;
     width: 100%;
@@ -32,12 +39,6 @@ ul, ol {
     padding: 0 15px 
     }
 
-.img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    display: block;
-}
 
 body {
     font-family: "Roboto", sans-serif;
@@ -430,12 +431,15 @@ body {
     padding-bottom: 120px;
 }
 
+.container-button {
+    margin-bottom: 72px;
+}
+
 .button-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center; 
     gap: 24px; 
-    margin-bottom: 72px;
 }
 
 .button-main {
