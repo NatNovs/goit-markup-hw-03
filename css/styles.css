@@ -110,7 +110,7 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 40px;
-    padding: 24px 0;
+
     
 }
 
@@ -118,7 +118,8 @@ body {
     display: flex;
     gap: 40px;
     align-items: center;
-    text-align: left; 
+    text-align: left;
+    padding: 24px 0;
 }
 
 .header-menu-imet {
