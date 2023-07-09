@@ -178,11 +178,7 @@ body {
     text-align: center;
     padding: 188px 0 188px;
 }
-
-.container-hero {
-    width: 100%;
-    
-}
+ 
 
 .hero-title {
     color: var(--primary-white);
@@ -193,6 +189,7 @@ body {
     letter-spacing: 0.02em;
     margin: auto 0;
     max-width: 496px;
+padding-left: 472px;
 
 }
 
