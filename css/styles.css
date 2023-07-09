@@ -435,6 +435,7 @@ body {
     flex-wrap: wrap;
     justify-content: center; 
     gap: 24px; 
+    margin-bottom: 72px;
 }
 
 .button-main {
@@ -522,7 +523,10 @@ body {
     color: var(--slate-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
+}
+
+.content-text-bort { 
     padding: 32px 16px;
     border-top: none; 
+    border: 1px solid #e7e9fc;
 }
